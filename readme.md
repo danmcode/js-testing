@@ -48,3 +48,7 @@
 
 - **What is a Unit?** → The smallest testable part of your code (like one Lego block).
 - **Test Double** → Generic term for mocks, spies, stubs.
+
+## commands
+
+`npm test -- --coverage`
