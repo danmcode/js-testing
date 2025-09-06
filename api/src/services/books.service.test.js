@@ -28,7 +28,6 @@ describe('Test for BookService', () => {
 
             // Act
             const books = await service.getBooks({});
-            console.log(books);
 
             // Assert
             expect(books.length).toEqual(fakeBooks.length);
